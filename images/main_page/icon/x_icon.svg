@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="62" viewBox="0 0 62 62">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="타원_60" data-name="타원 60" cx="31" cy="31" r="31" transform="translate(1100 4262)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="마스크_그룹_26" data-name="마스크 그룹 26" transform="translate(-1100 -4262)" clip-path="url(#clip-path)">
+    <g id="타원_4" data-name="타원 4" transform="translate(1100 4262)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="31" cy="31" r="31" stroke="none"/>
+      <circle cx="31" cy="31" r="30.5" fill="none"/>
+    </g>
+    <g id="그룹_138" data-name="그룹 138" transform="translate(426.864 3740.619)">
+      <circle id="타원_54" data-name="타원 54" cx="31" cy="31" r="31" transform="translate(673.136 521.381)" fill="#040505"/>
+      <path id="패스_109" data-name="패스 109" d="M733.88,558.385h5.447l-11.9,13.6,14,18.5H730.465l-8.585-11.22-9.824,11.22h-5.45l12.728-14.543L705.9,558.385h11.239l7.76,10.257Zm-1.912,28.84h3.019L715.5,561.474h-3.239Z" transform="translate(-19.529 -22.054)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
