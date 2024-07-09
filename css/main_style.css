@@ -42,7 +42,7 @@ div,p,ul,ol,li,dl,dt,dd,span,strong,table,th,td,em,form,input,textarea,img,video
     font-family: 'HancomMalangMalang-Regular';
  }
 #wrap{
-    min-width: 1320px;
+    min-width: 1400px;
 }
 /* main_layer */
 .main_layer{
@@ -65,12 +65,13 @@ div,p,ul,ol,li,dl,dt,dd,span,strong,table,th,td,em,form,input,textarea,img,video
     z-index: 99; */
 }
 .inner_header{
-    width: 1320px;
+    width: 1400px;
     margin: 0 auto;
 }
 .main_logo{
     color: #fff;
     text-align: center;
+    margin-right: 25px;
 }
 .nav> ul{
     color: #fff;
@@ -96,20 +97,20 @@ div,p,ul,ol,li,dl,dt,dd,span,strong,table,th,td,em,form,input,textarea,img,video
     background-color: rgba(0, 0, 0, 0.27);
 }
 .inner_submenu{
-    width: 1320px;
+    width: 1400px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;      
 }
 .inner_submenu ul:nth-child(1){
-    margin-left: 120px;
+    margin-left: 155px;
 }
 .inner_submenu ul:nth-child(2){
-    margin-left: 250px;
+    margin-left: 255px;
 }
 
 .inner_submenu ul:nth-child(3){
-    margin-right: 370px;
+    margin-right: 415px;
 }
 
 .inner_submenu li a{  
@@ -196,7 +197,7 @@ div,p,ul,ol,li,dl,dt,dd,span,strong,table,th,td,em,form,input,textarea,img,video
 }
 /* section_2 */
 .section_2{
-    padding: 28px;
+    padding: 28px 0;
 }
 .section_2_1{
     width: 1320px;
@@ -232,7 +233,7 @@ div,p,ul,ol,li,dl,dt,dd,span,strong,table,th,td,em,form,input,textarea,img,video
   .section_3{
     margin-top: 80px;
     background-color: #97ACD6;
-    padding: 80px;
+    padding: 80px 0px;
     height: 888px;
     overflow: hidden;
     box-sizing: border-box;
