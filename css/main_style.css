@@ -99,8 +99,19 @@ div,p,ul,ol,li,dl,dt,dd,span,strong,table,th,td,em,form,input,textarea,img,video
     width: 1320px;
     margin: 0px auto;
     display: flex;
-    justify-content: space-evenly;      
+    justify-content: space-between;      
 }
+.inner_submenu ul:nth-child(1){
+    margin-left: 120px;
+}
+.inner_submenu ul:nth-child(2){
+    margin-left: 250px;
+}
+
+.inner_submenu ul:nth-child(3){
+    margin-right: 370px;
+}
+
 .inner_submenu li a{  
   display: block;
   text-align: left;
