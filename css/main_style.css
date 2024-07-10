@@ -372,6 +372,10 @@ div,p,ul,ol,li,dl,dt,dd,span,strong,table,th,td,em,form,input,textarea,img,video
 }
 .sns_wrap li{
     padding-right: 15px;
+    opacity: 70%;
+}
+.sns_wrap ul li:hover{
+    opacity: 100%;
 }
 /* footer_content_3 */
 .footer_content_3{
