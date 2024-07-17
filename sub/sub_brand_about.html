@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1400">
     <title>NOMAD</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="./image/x-icon">
@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="../css/sub_brand_about.css">
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- wow -->
+     <link rel="stylesheet" href="../css/animate.css">
 </head>
 
 <body>
@@ -101,7 +103,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        
         <div id="about_section_1">
             <ul>
                 <li>
@@ -204,7 +206,8 @@
                 <ul>
                     <li>
                         <div class="logo_concept_img1">
-                            <img src="../images/sub_about_us/about_section_4/about_sea.png" alt="sea">
+                            <div class="wow bounceInDown">
+                            <img src="../images/sub_about_us/about_section_4/about_sea.png" alt="sea"></div>
                         </div>
                         <h1>바다</h1>
                         <p>바다는 끝없는 모험과 자유로움의
@@ -213,7 +216,8 @@
                     </li>
                     <li>
                         <div class="logo_concept_img1">
-                            <img src="../images/sub_about_us/about_section_4/about_coconut_trees.png" alt="coconuttrees">
+                            <div class="wow bounceInDown">
+                            <img src="../images/sub_about_us/about_section_4/about_coconut_trees.png" alt="coconuttrees"></div>
                         </div>
                         <h1>야자나무</h1>
                         <p>열대 휴양지의 상징이자 휴양지를
@@ -223,7 +227,8 @@
                     </li>
                     <li>
                         <div class="logo_concept_img1">
-                            <img src="../images/sub_about_us/about_section_4/about_airplane.png" alt="airplane">
+                            <div class="wow bounceInDown">
+                            <img src="../images/sub_about_us/about_section_4/about_airplane.png" alt="airplane"></div>
                         </div>
                         <h1>비행기</h1>
                         <p>비행기는 여행과 탐험의 대표 상징이자
@@ -373,6 +378,15 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- wow js -->
+     <script src="../js/wow.min.js"></script>
+     <script>
+        new WOW().init();
+     </script>
+     <section class="wow bounceInDown" data-wow-duration="2s" data-wow-delay="5s"></section>
+     <section class="wow bounceInDown" data-wow-offset="3913"  data-wow-iteration="100"></section>
 </body>
 
 </html>

@@ -56,6 +56,15 @@ div,p,ul,ol,li,dl,dt,dd,span,strong,table,th,td,em,form,input,textarea,img,video
     line-height: 23px;
     color: #333;
     font-family: 'HancomMalangMalang-Regular';
+    /* Prevent font scaling in landscape */
+
+    -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
+
+    -moz-text-size-adjust: none; /*Firefox*/
+
+    -ms-text-size-adjust: none;  /*Ie*/
+
+    -o-text-size-adjust: none; /*old versions of Opera*/
  }
 #wrap{
     min-width: 1400px;
@@ -305,6 +314,9 @@ div,p,ul,ol,li,dl,dt,dd,span,strong,table,th,td,em,form,input,textarea,img,video
 }
 strong{
     font-size: 34px;
+}
+.wow{
+    height: 100%;
 }
 .logo_concept ul{
     display: flex;
