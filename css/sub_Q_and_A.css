@@ -151,6 +151,7 @@ div,p,ul,ol,li,dl,dt,dd,span,strong,table,th,td,em,form,input,textarea,img,video
     position: relative;
     text-align: center;
     margin-bottom: 50px;
+    display: inline-block;
 }
 #tap_name>li{
     float: left;
@@ -171,12 +172,12 @@ div,p,ul,ol,li,dl,dt,dd,span,strong,table,th,td,em,form,input,textarea,img,video
     color: #333;
     border-bottom: transparent 3px solid;
 }
-#tap_name>li.on>tap_name_1{
+#tap_name>li.on>questions_1{
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
 }
-#tap_name>li>tap_name_1{
+#tap_name>li>questions_1{
     height: 0;
     overflow: hidden;
 }

@@ -281,15 +281,28 @@ div,p,ul,ol,li,dl,dt,dd,span,strong,table,th,td,em,form,input,textarea,img,video
     float: left;
     display: inline-block;
     margin-right:37px;
-    padding: 21px 0 21px 41px;     
+    padding: 21px 0 21px 51px;     
 }
 #tap_name>li:nth-child(1){
     background-image: url(../images/sub_theme_trip/theme_tap_icon/luxury_resort_w.svg);
     background-repeat:no-repeat ;
     background-position: 210px, center;
 }
+#tap_name>li:nth-child(2){
+    background-image: url(../images/sub_theme_trip/theme_tap_icon/resting_and_healing_w.svg);
+    background-repeat:no-repeat ;
+    background-position: 230px, center;
+}
+#tap_name>li:nth-child(3){
+    background-image: url(../images/sub_theme_trip/theme_tap_icon/romantic_w.svg);
+    background-repeat:no-repeat ;
+    background-position: 220px, center;
+}
 #tap_name>li:nth-child(4){
     margin: 0;
+    background-image: url(../images/sub_theme_trip/theme_tap_icon/photographic_trip_w.svg);
+    background-repeat:no-repeat ;
+    background-position: 220px, center;
 }
 .tap{
     cursor: pointer;

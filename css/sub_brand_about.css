@@ -142,7 +142,7 @@ div,p,ul,ol,li,dl,dt,dd,span,strong,table,th,td,em,form,input,textarea,img,video
 .submenu li a:hover{
     color: #afecff;
 }
-/* benner */
+/* banner */
 #banner{
     height: 780px;
     overflow: hidden;
@@ -152,7 +152,7 @@ div,p,ul,ol,li,dl,dt,dd,span,strong,table,th,td,em,form,input,textarea,img,video
     width: 1320px;
     margin: 0 auto;
 }
-.innrer_banner strong{
+.inner_banner h1{
     font-size: 104px;
     color: #fff;
     position: absolute;

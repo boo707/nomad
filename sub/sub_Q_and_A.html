@@ -49,7 +49,7 @@
                                         </ul>
                                         <ul>
                                             <li>
-                                                <a href="./sub/sub_brand_about.html">
+                                                <a href="../sub/sub_brand_about.html">
                                                     브랜드 정보
                                                 </a>
                                             </li>
@@ -96,8 +96,12 @@
         <!-- tap -->
         <div id="tap_wrap">
             <ul id="tap_name">
-                <li class="tap tablink opacity" onclick="openBoard(event,'Board01')">FAQ</li>
-                <li class="tap tablink" onclick="openBoard(event,'Board02')">1:1상담</li>
+                <li class="tap tablink opacity" onclick="openBoard(event,'Board01')">
+                    <a href="javascript:return false;">FAQ</a>
+                </li>
+                <li class="tap tablink" onclick="openBoard(event,'Board02')">
+                    <a href="javascript:return false;">1:1상담</a>
+                </li>
             </ul>
             <div id="Board01" class="questions_1 board">
                 <div class="faq_wrap">
@@ -349,7 +353,7 @@
                 </div>
             </div> 
             <!-- board01 end -->
-            <div id="Board02" class="questions_1 board hide">
+            <div id="Board02" class="questions_1 board hide" style="display: none;">
                 <div class="faq_wrap">
                     <ul class="faq">
                         <li>
@@ -724,7 +728,7 @@
     </div>
     <!-- JQ 오픈소스 -->
     <script src="../js/jquery-3.7.1.min.js"></script>
-    <script src="../js/script.js"></script>
+    <script src="../js/script_q.js"></script>
 </body>
 
 </html>
