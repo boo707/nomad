@@ -112,14 +112,14 @@ div,p,ul,ol,li,dl,dt,dd,span,strong,table,th,td,em,form,input,textarea,img,video
     justify-content: space-between;      
 }
 .inner_submenu ul:nth-child(1){
-    margin-left: 155px;
+    margin-left: 147px;
 }
 .inner_submenu ul:nth-child(2){
-    margin-left: 255px;
+    margin-left: 244px;
 }
 
 .inner_submenu ul:nth-child(3){
-    margin-right: 415px;
+    margin-right: 413px;
 }
 
 .inner_submenu li a{  
